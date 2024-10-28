@@ -78,7 +78,7 @@ This web application predicts heart disease based on user-provided features. It 
 
   The application displays the prediction result, probability, and feature contributions.
 
- ## **How the Model Works**
+ ### **How the Model Works**
    The heart disease prediction model is built through the following steps:
 
    Preprocessing: Normalization and encoding of categorical variables.
@@ -93,11 +93,13 @@ This web application predicts heart disease based on user-provided features. It 
 
    These values are displayed to the user.
 
-## **Contributing**
+### **Contributing**
     Contributions are welcome! To contribute, please fork the repository and create a pull request with your changes.
 
-9. **Important Links**
+### **Important Links**
    [Colab Model](https://colab.research.google.com/drive/19gvQ4v1JO2boiuvkoJG_A45YW1jU31dh?usp=sharing): Link to Colab Notebook
+
    [GitHub Repository](https://github.com/Vaniahchristian/Heart-Disease-Diagnosis-System): Heart Disease Diagnosis System
+
    [Vercel Project Link](https://heart-disease-diagnosis-system-1.vercel.app): Heart Disease Diagnosis System on Vercel
    
