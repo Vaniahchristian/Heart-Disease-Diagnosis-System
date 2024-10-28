@@ -30,6 +30,9 @@ This web application predicts heart disease based on user-provided features. It 
 
 ## Setup Instructions
 
+
+
+
 ### Prerequisites
 
 - Python 3.x
@@ -48,13 +51,23 @@ This web application predicts heart disease based on user-provided features. It 
     ```bash
     pip install -r requirements.txt
 
-3.**MAKE SURE YOU CHANGE THIS TO THE EXACT LOCATION OF YOUR MODELS IN APP.PY**
-   model = joblib.load('C:\\Users\\Karim\\Desktop\\MUKISA_VANIAH_CHRISTIAN\\backend\\model\\heart_disease_model.joblib')
-   scaler = joblib.load('C:\\Users\\Karim\\Desktop\\MUKISA_VANIAH_CHRISTIAN\\backend\\model\\scaler.joblib')
 
-4. **Start the Flask server**:
+    cd Heart-Disease-Diagnosis-System/backend
+
+3. **Start the Flask server**:
    ```bash
    python app.py
+
+
+4. **Easy set up**
+    
+
+    Run this frontend on vercel
+    [Vercel Project Link](https://heart-disease-diagnosis-system-1.vercel.app): Heart Disease Diagnosis System on Vercel
+
+    with the backend running locally and rontend running on vercel. you will be able to  see the project
+
+
 
 ### **Frontend Setup**
 
