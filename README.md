@@ -45,7 +45,7 @@ This web application predicts heart disease based on user-provided features. It 
 
    ```bash
    git clone https://github.com/Vaniahchristian/Heart-Disease-Diagnosis-System.git
-   cd Heart-Disease-Diagnosis-System/backend
+   cd Heart-Disease-Diagnosis-System
 
 2. **Install required Python packages**:
     ```bash
