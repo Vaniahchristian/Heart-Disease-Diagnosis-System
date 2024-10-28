@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Prediction({ setResults }) { // Accept setResults as a prop
+function Prediction({ setResults }) {
   const [features, setFeatures] = useState({
     age: '',
     sex: '',
@@ -31,7 +31,7 @@ function Prediction({ setResults }) { // Accept setResults as a prop
 
     // Make a POST request to the backend API
     try {
-      const response = await fetch('http://127.0.0.1:5000/predict', {
+      const response = await fetch('https://heart-disease-diagnosis-system.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
