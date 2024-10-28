@@ -81,6 +81,10 @@ This web application predicts heart disease based on user-provided features. It 
   if you click on the vercel link .just login with any details e.g (email : vierycalliper@gmail.com , password : 0754092850)
 
   NB: No need to create account
+
+   Click on Heart disease prediction on the side bar and input the features
+   
+   All the predictions will be displayed in the Diagnosis Results.
    
 
  ### **How the Model Works**
@@ -94,9 +98,6 @@ This web application predicts heart disease based on user-provided features. It 
 
    Predictions: Input features are scaled using the pre-trained scaler and passed to the model for prediction.
 
-   Interpretability: SHAP values are calculated to understand which features influenced the prediction most. 
-
-   These values are displayed to the user.
 
 ### **Contributing**
     Contributions are welcome! To contribute, please fork the repository and create a pull request with your changes.
