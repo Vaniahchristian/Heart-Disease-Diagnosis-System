@@ -73,18 +73,27 @@ This web application predicts heart disease based on user-provided features. It 
 Ensure both the backend and frontend servers are running.
 
 Open your web browser and navigate to http://localhost:3000.
+
 Fill out the form with the required patient features and click "Predict".
+
 The application displays the prediction result, probability, and feature contributions.
 
 8. **How the Model Works**
 The heart disease prediction model is built through the following steps:
 
 Preprocessing: Normalization and encoding of categorical variables.
-Model Training: The model is trained with a supervised learning algorithm (e.g., Random Forest, Logistic Regression).
+
+Model Training: The model is trained with a supervised learning algorithm ( Logistic Regression).
+
 Model Evaluation: Evaluated with metrics such as accuracy, precision, recall, and F1-score.
+
 Predictions: Input features are scaled using the pre-trained scaler and passed to the model for prediction.
-Interpretability: SHAP values are calculated to understand which features influenced the prediction most. These values are displayed to the user.
-Contributing
+
+Interpretability: SHAP values are calculated to understand which features influenced the prediction most. 
+
+These values are displayed to the user.
+
+10. **Contributing**
 Contributions are welcome! To contribute, please fork the repository and create a pull request with your changes.
 
 9.**Important Links**
