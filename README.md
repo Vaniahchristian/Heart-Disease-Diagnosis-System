@@ -45,36 +45,38 @@ This web application predicts heart disease based on user-provided features. It 
    cd Heart-Disease-Diagnosis-System/backend
 
 2. **Install required Python packages**:
+    ```bash
     pip install -r requirements.txt
 
 3. **Start the Flask server**:
+   ```bash
    python app.py
 
 4. **Frontend Setup**
-Navigate to the frontend directory:
-
-bash
-
-cd ../heart-diagnosis-frontend
-Install required Node.js packages:
-
-bash
-
-npm install
-5.Start the React development server:
-
-bash
-
-npm start
+    
+   ```bash
+   cd ../heart-diagnosis-frontend
 
 
-How to Run the Application
+5. **Install required Node.js packages:**
+
+   ```bash
+     npm install
+6. **Start the React development server:**
+   ```bash
+
+   npm start
+
+
+7. **How to Run the Application**
+
 Ensure both the backend and frontend servers are running.
+
 Open your web browser and navigate to http://localhost:3000.
 Fill out the form with the required patient features and click "Predict".
 The application displays the prediction result, probability, and feature contributions.
 
-How the Model Works
+8. **How the Model Works**
 The heart disease prediction model is built through the following steps:
 
 Preprocessing: Normalization and encoding of categorical variables.
@@ -85,7 +87,7 @@ Interpretability: SHAP values are calculated to understand which features influe
 Contributing
 Contributions are welcome! To contribute, please fork the repository and create a pull request with your changes.
 
-Important Links
+9.**Important Links**
 Colab Model: Link to Colab Notebook
 GitHub Repository: Heart Disease Diagnosis System
 Vercel Project Link: Heart Disease Diagnosis System on Vercel
