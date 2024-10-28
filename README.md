@@ -52,23 +52,22 @@ This web application predicts heart disease based on user-provided features. It 
    ```bash
    python app.py
 
-## **Frontend Setup**
-    
-   ```bash
-   cd ../heart-diagnosis-frontend
+### **Frontend Setup**
+
+           
 
 
-5. **Install required Node.js packages:**
+1. **Install required Node.js packages:**
 
    ```bash
      npm install
-6. **Start the React development server:**
+2. **Start the React development server:**
    ```bash
 
    npm start
 
 
-## **How to Run the Application**
+### **How to Run the Application**
 
   Ensure both the backend and frontend servers are running.
 
@@ -96,7 +95,8 @@ This web application predicts heart disease based on user-provided features. It 
 ## **Contributing**
     Contributions are welcome! To contribute, please fork the repository and create a pull request with your changes.
 
-## **Important Links**
+9. **Important Links**
    [Colab Model](https://colab.research.google.com/drive/19gvQ4v1JO2boiuvkoJG_A45YW1jU31dh?usp=sharing): Link to Colab Notebook
    [GitHub Repository](https://github.com/Vaniahchristian/Heart-Disease-Diagnosis-System): Heart Disease Diagnosis System
    [Vercel Project Link](https://heart-disease-diagnosis-system-1.vercel.app): Heart Disease Diagnosis System on Vercel
+   
