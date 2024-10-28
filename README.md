@@ -78,6 +78,11 @@ This web application predicts heart disease based on user-provided features. It 
 
   The application displays the prediction result, probability, and feature contributions.
 
+  if you click on the vercel link .just login with any details e.g (email : vierycalliper@gmail.com , password : 0754092850)
+
+  NB: No need to create account
+   
+
  ### **How the Model Works**
    The heart disease prediction model is built through the following steps:
 
