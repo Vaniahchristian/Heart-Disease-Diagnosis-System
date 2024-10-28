@@ -29,9 +29,14 @@ function Prediction({ setResults }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Make a POST request to the backend API
+    // Determine the API endpoint based on the environment
+    const apiUrl =
+      window.location.hostname === "localhost"
+        ? "http://127.0.0.1:5000/predict"
+        : "https://heart-disease-diagnosis-system.onrender.com/predict";
+
     try {
-      const response = await fetch('https://heart-disease-diagnosis-system.onrender.com/predict', {
+      const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
