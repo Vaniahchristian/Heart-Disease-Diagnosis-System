@@ -54,7 +54,8 @@ This web application predicts heart disease based on user-provided features. It 
 
 ### **Frontend Setup**
 
-           
+    ``bash
+    cd ../heart-diagnosis-frontend
 
 
 1. **Install required Node.js packages:**
