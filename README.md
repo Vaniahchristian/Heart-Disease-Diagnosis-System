@@ -52,7 +52,7 @@ This web application predicts heart disease based on user-provided features. It 
    ```bash
    python app.py
 
-4. **Frontend Setup**
+## **Frontend Setup**
     
    ```bash
    cd ../heart-diagnosis-frontend
@@ -68,35 +68,35 @@ This web application predicts heart disease based on user-provided features. It 
    npm start
 
 
-7. **How to Run the Application**
+## **How to Run the Application**
 
-Ensure both the backend and frontend servers are running.
+  Ensure both the backend and frontend servers are running.
 
-Open your web browser and navigate to http://localhost:3000.
+  Open your web browser and navigate to http://localhost:3000.
 
-Fill out the form with the required patient features and click "Predict".
+  Fill out the form with the required patient features and click "Predict".
 
-The application displays the prediction result, probability, and feature contributions.
+  The application displays the prediction result, probability, and feature contributions.
 
-8. **How the Model Works**
-The heart disease prediction model is built through the following steps:
+ ## **How the Model Works**
+   The heart disease prediction model is built through the following steps:
 
-Preprocessing: Normalization and encoding of categorical variables.
+   Preprocessing: Normalization and encoding of categorical variables.
 
-Model Training: The model is trained with a supervised learning algorithm ( Logistic Regression).
+   Model Training: The model is trained with a supervised learning algorithm ( Logistic Regression).
 
-Model Evaluation: Evaluated with metrics such as accuracy, precision, recall, and F1-score.
+   Model Evaluation: Evaluated with metrics such as accuracy, precision, recall, and F1-score.
 
-Predictions: Input features are scaled using the pre-trained scaler and passed to the model for prediction.
+   Predictions: Input features are scaled using the pre-trained scaler and passed to the model for prediction.
 
-Interpretability: SHAP values are calculated to understand which features influenced the prediction most. 
+   Interpretability: SHAP values are calculated to understand which features influenced the prediction most. 
 
-These values are displayed to the user.
+   These values are displayed to the user.
 
-10. **Contributing**
-Contributions are welcome! To contribute, please fork the repository and create a pull request with your changes.
+## **Contributing**
+    Contributions are welcome! To contribute, please fork the repository and create a pull request with your changes.
 
-9.**Important Links**
-Colab Model: Link to Colab Notebook
-GitHub Repository: Heart Disease Diagnosis System
-Vercel Project Link: Heart Disease Diagnosis System on Vercel
+## **Important Links**
+   [Colab Model](https://colab.research.google.com/drive/19gvQ4v1JO2boiuvkoJG_A45YW1jU31dh?usp=sharing): Link to Colab Notebook
+   [GitHub Repository](https://github.com/Vaniahchristian/Heart-Disease-Diagnosis-System): Heart Disease Diagnosis System
+   [Vercel Project Link](https://heart-disease-diagnosis-system-1.vercel.app): Heart Disease Diagnosis System on Vercel
