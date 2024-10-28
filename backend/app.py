@@ -9,9 +9,9 @@ import os
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
-# Load the trained model and scaler
-model = joblib.load('C:\\Users\\Karim\\Desktop\\MUKISA_VANIAH_CHRISTIAN\\backend\\model\\heart_disease_model.joblib')
-scaler = joblib.load('C:\\Users\\Karim\\Desktop\\MUKISA_VANIAH_CHRISTIAN\\backend\\model\\scaler.joblib')
+# Load the trained model and scaler using relative paths
+model = joblib.load('model/heart_disease_model.joblib')
+scaler = joblib.load('model/scaler.joblib')
 
 @app.route('/predict', methods=['POST'])
 def predict():
