@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { 
   FaChevronLeft, 
   FaChevronRight, 
-  FaUserCircle, 
+   
   FaTachometerAlt, 
   FaImage, 
   FaClipboardCheck,
