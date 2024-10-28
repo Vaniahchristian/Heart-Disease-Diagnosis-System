@@ -48,7 +48,11 @@ This web application predicts heart disease based on user-provided features. It 
     ```bash
     pip install -r requirements.txt
 
-3. **Start the Flask server**:
+3.**MAKE SURE YOU CHANGE THIS TO THE EXACT LOCATION OF YOUR MODELS IN APP.PY**
+   model = joblib.load('C:\\Users\\Karim\\Desktop\\MUKISA_VANIAH_CHRISTIAN\\backend\\model\\heart_disease_model.joblib')
+   scaler = joblib.load('C:\\Users\\Karim\\Desktop\\MUKISA_VANIAH_CHRISTIAN\\backend\\model\\scaler.joblib')
+
+4. **Start the Flask server**:
    ```bash
    python app.py
 
